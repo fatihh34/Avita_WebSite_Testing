@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.ConfigReader;
 import utilities.Driver;
 
+//import java.sql.Driver;
 import java.time.Duration;
 
 public class Hooks {
@@ -23,7 +24,7 @@ public class Hooks {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
         @Before
         public void setUpScenarios(){
-            Driver.getDriver().get(ConfigReader.getProperty("avita_url"));
+            //Driver.getDriver().get(ConfigReader.getProperty("avita_url"));
 
         }
         @After

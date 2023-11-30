@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
             monochrome = true,//raporlarin konsolda okunakli sekilde cikmasi icin
             features = "src/test/resources/features",//features folder path
             glue = {"stepdefinitions","hooks"},   //stepdefinitions path
-            tags = "@adiniz_soyadiniz_alani",
+            tags = "@cekici_portal",
 
 
             dryRun = false

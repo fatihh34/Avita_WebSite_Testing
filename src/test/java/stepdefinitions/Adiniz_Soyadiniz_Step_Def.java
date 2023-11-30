@@ -9,9 +9,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-import java.security.Key;
-
-public class Kayit_Ol_Sayfasi_Step_Def {
+public class Adiniz_Soyadiniz_Step_Def {
 
     Avita_Kayit_Olma_Sayfasi avita_kayit_olma_sayfasi= new Avita_Kayit_Olma_Sayfasi();
     ReusableMethods reusableMethods= new ReusableMethods();

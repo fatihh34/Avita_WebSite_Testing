@@ -1,5 +1,4 @@
 package stepdefinitions;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -11,7 +10,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class Avita_StepDefinitions {
+public class Kayit_olma_Sayfasi_Step_Def {
 
     Avita_Kayit_Olma_Sayfasi avita_kayit_olma_sayfasi= new Avita_Kayit_Olma_Sayfasi();
     ReusableMethods reusableMethods= new ReusableMethods();
